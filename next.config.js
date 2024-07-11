@@ -2,7 +2,7 @@ const nextConfig = {
   reactStrictMode: false,
   swcMinify: true,
   images: {
-    domains: [""],
+    domains: ["https://elgibran.vercel.app/"],
   },
 };
 
