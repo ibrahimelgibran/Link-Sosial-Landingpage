@@ -32,7 +32,7 @@ const Links = () => {
 
       <BottomSheet
         key={isBottomSheetOpen ? "bottom-sheet-open" : "bottom-sheet-closed"}
-        title="Buy me a Cup of Coffee"
+        title="Buy me a Food of Drink"
         isOpen={isBottomSheetOpen}
         onClose={() => setBottomSheetOpen(false)}
       >

@@ -34,9 +34,9 @@ const BuyACoffee: React.FC = () => {
             className="flex justify-center border border-solid w-full px-5 py-3 rounded-xl hover:border-gray-400"
           >
             <Image
-              src="/images/banktransfer.webp"
+              src="/images/bankandewallet.webp"
               alt="Bank Transfer"
-              width={150}
+              width={230}
               height={80}
               data-umami-event="Click : Bank Transfer"
             />

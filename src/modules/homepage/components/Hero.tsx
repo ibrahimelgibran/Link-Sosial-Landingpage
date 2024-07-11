@@ -23,8 +23,8 @@ const Hero = () => {
         data-aos-duration="1000"
       >
         <Image
-          src="/images/aulianza.webp"
-          alt="Ryan Aulia"
+          src="/images/meprofil.jpg"
+          alt="Ibrahim El Gibran"
           width={100}
           height={100}
           rounded="rounded-full"
@@ -38,9 +38,9 @@ const Hero = () => {
           data-aos-duration="1000"
         >
           <div className="flex flex-col gap-1 items-center text-center">
-            <h1 className="text-2xl font-medium">Ryan Aulia</h1>
+            <h1 className="text-2xl font-medium">Ibrahim El Gibran</h1>
             <div className="flex gap-2 text-[15px] text-neutral-500">
-              <span>Jakarta, Indonesia</span>
+              <span>Sleman, Yogyakarta</span>
               <span className="text-neutral-300">•</span>
               <span>he/him</span>
             </div>

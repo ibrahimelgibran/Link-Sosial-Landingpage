@@ -37,7 +37,7 @@ const AccountCard = ({
         "flex flex-col justify-between p-5 border rounded-xl h-36 bg-no-repeat ",
         "transition-all duration-300",
         "hover:scale-[103%] group",
-        className,
+        className
       )}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
@@ -48,12 +48,16 @@ const AccountCard = ({
           style={{ color: color }}
         >
           {bank}
+          {/* <img src={logo} height={90} width={100} alt="" /> */}
         </div>
       </div>
 
       <div className="flex flex-col gap-8">
         <div className="flex flex-col gap-y-0.5">
-          <span className="text-xs font-light opacity-80">ACCOUNT NUMBER</span>
+          <span className="mt-3 text-xs font-light opacity-80">
+            ACCOUNT NUMBER
+          </span>
+          <span className="text-base uppercase font-medium">{holder}</span>
           <div className="flex gap-1 items-center">
             <div className="font-medium text-xl">
               {number?.match(/.{1,3}/g)?.map((group, index) => (

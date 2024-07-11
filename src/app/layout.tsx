@@ -10,13 +10,13 @@ import Footer from "@/common/components/Footer";
 const sora = Sora({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Ryan Aulia - Software Engineer",
+  title: "Link Sosial - El Gibran",
   description: "My Personal Landing Page",
-  icons: "/images/aulianza.webp",
+  icons: "https://www.iegcodestore.my.id/ieg.png",
   // openGraph: {
-  //   images: "/images/aulianza.webp",
-  //   url: "https://aulianza.com",
-  //   siteName: "Ryan Aulia - Aulianza Landing Page",
+  //   images: "/images/meprofil.jpg",
+  //   url: "https://ibrahimelgibran.com",
+  //   siteName: "Ibrahim El Gibran - Elgibran Landing Page",
   //   type: "website",
   // },
 };
