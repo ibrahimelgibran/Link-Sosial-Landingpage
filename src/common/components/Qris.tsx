@@ -5,19 +5,14 @@ import Image from "./Image";
 const Qris = ({ onBack }: { onBack: () => void }) => {
   const downloadQrisImage = () => {
     const link = document.createElement("a");
-    link.href = "/images/qris-aulianza.webp";
-    link.download = "qris-aulianza.webp";
+    link.href = "/images/comingsoon.png";
+    link.download = "qris-iegcode.png";
     link.click();
   };
 
   return (
     <>
-      <Image
-        src="/images/qris-aulianza.webp"
-        alt="QRIS"
-        width={500}
-        height={800}
-      />
+      <Image src="/images/comingsoon.png" alt="QRIS" width={500} height={800} />
       <div className="p-6 flex w-full gap-5">
         <button
           onClick={onBack}

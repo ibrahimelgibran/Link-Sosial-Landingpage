@@ -14,7 +14,7 @@ const ChitChat = () => {
         <h2 className="font-medium text-neutral-600">Free Session</h2>
       </div>
       <Link
-        href="https://cal.com/aulianza/schedule"
+        href=""
         target="_blank"
         data-aos="zoom-in-up"
         data-aos-duration="1000"

@@ -28,10 +28,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <Script
-        src="https://analytics.aulianza.com/script.js"
+      {/* <Script
+        src="https://ibrahimelgibran.com/script.js"
         data-website-id="c2ee1939-526f-4607-9cfb-cc19817333cf"
-      />
+      /> */}
       <body className={clsx(sora.className)}>
         <div className="min-h-screen md:min-h-fit max-w-[480px] mx-auto bg-white md:shadow-xl md:rounded-lg md:my-3 ">
           {children}
