@@ -18,7 +18,7 @@ const Hero = () => {
         }}
       ></div>
       <div
-        className="rounded-full bg-white border border-2 -mt-[60px]"
+        className="rounded-full bg-white border-2 -mt-[60px]"
         data-aos="zoom-in-down"
         data-aos-duration="1000"
       >
@@ -45,10 +45,6 @@ const Hero = () => {
               <span>he/him</span>
             </div>
           </div>
-          {/* <p className="text-center text-neutral-600 text-[15px] md:text-base mx-1.5 leading-relaxed">
-            Seasoned software engineer especially in frontend side, with a
-            passion for creating pixel-perfect web experiences.
-          </p> */}
         </div>
       </div>
     </header>

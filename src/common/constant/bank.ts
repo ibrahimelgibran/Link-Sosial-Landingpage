@@ -64,7 +64,7 @@ export const BANK_ACCOUNTS: BankAccountsProps[] = [
   {
     number: "085876076005",
     holder: "Ibrahim El Gibran",
-    bank: "gopay",
+    bank: "GoPay",
     type: "e-wallet",
     logo: "/images/payment/gopay.png",
     color: "#20A4DC",
@@ -74,7 +74,7 @@ export const BANK_ACCOUNTS: BankAccountsProps[] = [
   {
     number: "085876076005",
     holder: "Ibrahim El Gibran",
-    bank: "shoppepay",
+    bank: "ShoppePay",
     type: "e-wallet",
     logo: "/images/payment/shoppepay.png",
     color: "#FF7F3E",
