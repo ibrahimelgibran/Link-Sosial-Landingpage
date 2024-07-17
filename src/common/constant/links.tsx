@@ -25,7 +25,7 @@ export const LINKS: LinkProps[] = [
     target: "_blank",
   },
   {
-    label: "E-Commerce IEGCODE 🛒",
+    label: "Software House & E-Commerce IEGCODE",
     icon: <ShoppiongIcon size={21} className="text-neutral-600" />,
     href: "https://www.iegcode.my.id/",
     className: "bg-blue-600",
