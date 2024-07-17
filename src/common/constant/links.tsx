@@ -32,7 +32,7 @@ export const LINKS: LinkProps[] = [
     target: "_blank",
   },
   {
-    label: "Notes",
+    label: "My Notes",
     icon: <NoteIcon size={21} className="text-neutral-600" />,
     href: "https://www.ibrahimelgibran.com/notes",
     className: "bg-rose-600",
