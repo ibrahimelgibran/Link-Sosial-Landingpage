@@ -20,7 +20,7 @@ export const LINKS: LinkProps[] = [
   {
     label: "Resume & Curriculum Vitae",
     icon: <PDFIcon size={21} className="text-neutral-600" />,
-    href: "https://drive.google.com/file/d/1p6yqSrLsh35Ze2DUqRDMGm5n5doYAvi0/view",
+    href: "https://drive.google.com/file/d/1be38UTsfygqTVcZ3eeVZTrBEeonJrPkr/view",
     className: "bg-emerald-700",
     target: "_blank",
   },
