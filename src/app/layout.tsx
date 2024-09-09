@@ -6,8 +6,6 @@ import Script from "next/script";
 import "./globals.css";
 
 import Footer from "@/common/components/Footer";
-import PageWrapper from "@/common/components/PageWrapper";
-import Home from "@/modules/homepage";
 
 const sora = Sora({ subsets: ["latin"] });
 
@@ -31,10 +29,7 @@ export default function RootLayout({
       </head>
       <body className={clsx(sora.className)}>
         <div className="min-h-screen md:min-h-fit max-w-[480px] mx-auto bg-white md:shadow-xl md:rounded-lg md:my-3">
-          <PageWrapper>
-            <Home />
-            {children}
-          </PageWrapper>
+          {children}
         </div>
       </body>
     </html>
