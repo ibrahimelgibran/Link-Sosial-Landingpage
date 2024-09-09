@@ -30,7 +30,7 @@ const Contact = () => {
         data-aos-duration="1000"
       >
         <EmailIcon size={24} className="text-neutral-800" />
-        <div className="space-y-3">
+        {/* <div className="space-y-3">
           <div className="font-medium text-lg md:text-xl">Drop me an Email</div>
           <div
             className="hover:underline text-neutral-800 text-lg md:text-lg cursor-pointer"
@@ -39,6 +39,16 @@ const Contact = () => {
           >
             {copiedEmail ? "Copied!" : "ibrahimelgibran17@gmail.com"}
           </div>
+        </div> */}
+        <div className="space-y-3">
+          <div className="font-medium text-lg md:text-xl">Drop me an Email</div>
+          <a
+            href="mailto:ibrahimelgibran17@gmail.com"
+            className="hover:underline text-neutral-800 text-lg md:text-lg cursor-pointer block"
+            data-umami-event="Click : Email"
+          >
+            {copiedEmail ? "Copied!" : "ibrahimelgibran17@gmail.com"}
+          </a>
         </div>
         <p className="text-sm md:text-base text-neutral-700 leading-relaxed">
           Expect my rapid and eager reply – your message won't be kept waiting!
