@@ -23,7 +23,7 @@ const Hero = () => {
         data-aos-duration="1000"
       >
         <Image
-          src="/images/elgibran.png"
+          src="/images/profil.jpeg"
           alt="Ibrahim El Gibran"
           width={100}
           height={100}
